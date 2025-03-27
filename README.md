@@ -1,7 +1,7 @@
 # Hi, I'm Buda Becker 👋
 
 <p align="left">
-  A Computer Science student and backend developer based in Brazil 🇧🇷, I'm passionate about solving complex problems by developing smart and efficient solutions and continuously learning new technologies.
+  My name is Gabriel Becker, I'm a Computer Science student and backend developer based in Brazil 🇧🇷, I'm passionate about solving complex problems by developing smart and efficient solutions and continuously learning new technologies.
 </p>
 
 ## 👨‍💻 About Me
@@ -38,7 +38,7 @@ As a Computer Science student, I'm deeply engaged in the world of software devel
 
 ## 🔭 Currently Exploring
 
-* Advanced Data Structures and Algorithms, leveraging Pandas and MySQL for practical applications.
+* Advanced Data Structures and Algorithms, leveraging pandas package and MySQL for practical applications.
 
 ## 📈 GitHub Insights
 
@@ -49,14 +49,17 @@ As a Computer Science student, I'm deeply engaged in the world of software devel
 
 ## 🔗 Connect with Me
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/gabriel-becker-cidral/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+<div align="left">
+  <a href="http://discordapp.com/users/zzbuda" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
   </a>
-  <a href="mailto:gabriel.becker@sempreceub.com" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/static/v1?message=Email&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="27" alt="Email" />
+  <a href="mailto:gabriel.becker@sempreceub.com" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
   </a>
-</p>
+  <a href="https://www.linkedin.com/in/gabriel-becker-cidral" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+  </a>
+</div>
 
 ##
 
