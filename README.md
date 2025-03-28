@@ -44,7 +44,7 @@ As a Computer Science student, I'm deeply engaged in the world of software devel
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=BudaBecker&locale=en&mode=daily&theme=discord_old_blurple&hide_border=false&border_radius=5" height="140" alt="GitHub Streak" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=BudaBecker&locale=en&hide_title=false&layout=compact&card_width=300&langs_count=5&theme=discord_old_blurple&hide_border=false" height="140" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=BudaBecker&locale=en&hide_title=false&layout=compact&card_width=350&langs_count=5&theme=discord_old_blurple&hide_border=false" height="140" alt="Top Languages" />
 </p>
 
 ## 🔗 Connect with Me
