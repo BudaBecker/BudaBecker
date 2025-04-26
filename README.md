@@ -14,23 +14,27 @@ As a Computer Science student, I'm deeply engaged in the world of software devel
   <a href="https://www.python.org" target="_blank" rel="noreferrer">
     <img src="https://skillicons.dev/icons?i=py" height="40" alt="Python" />
   </a>
-  <img width="10" />
-  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
-    <img src="https://skillicons.dev/icons?i=c" height="40" alt="C" />
-  </a>
-  <img width="10" />
+
   <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
     <img src="https://skillicons.dev/icons?i=cpp" height="40" alt="C++" />
   </a>
-  <img width="10" />
+  
+  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=c" height="40" alt="C" />
+  </a>
+
+  <a href="https://www.php.net/" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=php" height="40" alt="php" />
+  </a>
+  
   <a href="https://www.java.com" target="_blank" rel="noreferrer">
     <img src="https://skillicons.dev/icons?i=java" height="40" alt="Java" />
   </a>
-  <img width="10" />
+  
   <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
     <img src="https://skillicons.dev/icons?i=mysql" height="40" alt="MySQL" />
   </a>
-  <img width="10" />
+  
   <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer">
     <img src="https://skillicons.dev/icons?i=arduino" height="40" alt="Arduino" />
   </a>
@@ -38,7 +42,7 @@ As a Computer Science student, I'm deeply engaged in the world of software devel
 
 ## 🔭 Currently Exploring
 
-* Advanced Data Structures and Algorithms, leveraging pandas package and MySQL for practical applications.
+* Advanced Data Structures and Algorithms, leveraging machine learning packages like `Neat`, `TensorFlow` and `PyTorch`.
 
 ## 📈 GitHub Insights
 
