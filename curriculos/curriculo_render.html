@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Gabriel Becker Cidral — Currículo</title>
+<style>
+  @page { size: A4; margin: 7mm 11mm; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body {
+    font-family: "Calibri", "Segoe UI", Arial, sans-serif;
+    font-size: 9.3pt;
+    line-height: 1.18;
+    color: #1b1b1b;
+  }
+  /* Header */
+  .name { font-size: 20pt; font-weight: 700; color: #14385c; letter-spacing: .2px; }
+  .role { font-size: 10.5pt; font-weight: 600; color: #2f6195; margin-top: 1px; }
+  .contact { font-size: 9pt; color: #333; margin-top: 4px; }
+  .contact a { color: #14385c; text-decoration: none; }
+  /* Sections */
+  h2 {
+    font-size: 10.5pt; font-weight: 700; color: #14385c;
+    text-transform: uppercase; letter-spacing: .6px;
+    border-bottom: 1.4px solid #14385c;
+    padding-bottom: 1px; margin: 5px 0 3px;
+  }
+  p { margin-bottom: 2px; }
+  ul { list-style: none; margin: 1px 0 3px; }
+  li { position: relative; padding-left: 11px; margin-bottom: 1.5px; }
+  li::before { content: "▪"; position: absolute; left: 0; color: #2f6195; font-size: 7.5pt; top: 1px; }
+  .skills li { margin-bottom: 2px; }
+  /* Entries */
+  .entry { margin-bottom: 4px; }
+  .entry-title { font-weight: 700; color: #1b1b1b; }
+  .entry-meta { font-style: italic; color: #555; font-size: 9.4pt; }
+  .stack { color: #2f6195; font-weight: 600; }
+  .muted { color: #666; font-weight: 400; font-style: italic; }
+  strong { color: #0f0f0f; font-weight: 700; }
+  .tight { margin-bottom: 2px; }
+</style>
+</head>
+<body>
+
+  <div class="name">Gabriel Becker Cidral</div>
+  <div class="role">Desenvolvedor Backend — Python · Java · Spring Boot · Django · FastAPI</div>
+  <div class="contact">
+    Brasília–DF, Brasil &nbsp;·&nbsp; (61) 99177-4829 &nbsp;·&nbsp; (48) 99121-6999 (WhatsApp) &nbsp;·&nbsp;
+    <a href="mailto:dev.gabriel.becker@gmail.com">dev.gabriel.becker@gmail.com</a><br>
+    <a href="https://www.linkedin.com/in/gabriel-becker-cidral">linkedin.com/in/gabriel-becker-cidral</a>
+    &nbsp;·&nbsp; <a href="https://github.com/BudaBecker">github.com/BudaBecker</a>
+  </div>
+
+  <h2>Resumo</h2>
+  <p>Desenvolvedor backend e estudante de Ciência da Computação com experiência prática em <strong>Python</strong>
+  (Django, Django REST Framework, FastAPI, Flask) e <strong>Java</strong> (Spring Boot) no desenvolvimento de
+  <strong>APIs RESTful</strong>, autenticação <strong>JWT</strong> e bancos de dados relacionais
+  (<strong>PostgreSQL, MySQL</strong>). Aplico <strong>Clean Architecture, SOLID, Design Patterns</strong> e
+  <strong>testes automatizados</strong>, com versionamento <strong>Git</strong> e <strong>CI/CD</strong>.
+  Busco oportunidade de <strong>estágio ou posição júnior em desenvolvimento backend</strong>.</p>
+
+  <h2>Competências Técnicas</h2>
+  <ul class="skills">
+    <li><strong>Linguagens:</strong> Python, Java, SQL, C, C++, JavaScript/TypeScript</li>
+    <li><strong>Backend &amp; APIs:</strong> Django, Django REST Framework, FastAPI, Flask, Spring Boot, Spring Data JPA, Spring Security, APIs RESTful, JWT/OAuth2</li>
+    <li><strong>Arquitetura:</strong> Clean Architecture, SOLID, Design Patterns (Repository, Strategy, Factory), DDD, MVC, Clean Code</li>
+    <li><strong>Bancos de Dados:</strong> PostgreSQL, MySQL, SQLite, Hibernate/JPA, modelagem relacional, SQL avançado (triggers, window functions)</li>
+    <li><strong>Cloud &amp; DevOps:</strong> Google Cloud Platform (GCP), AWS, Kubernetes, Docker, Git, GitHub Actions (CI/CD), Linux, Maven, Gunicorn</li>
+    <li><strong>Testes &amp; Qualidade:</strong> Testes unitários e de integração (JUnit, Django Test), JaCoCo, Pydantic</li>
+    <li><strong>Computação Científica &amp; Hardware:</strong> MATLAB, Octave, Arduino, C/C++ para sistemas embarcados</li>
+    <li><strong>Front-end (complementar):</strong> Angular, React, TypeScript, HTML, CSS</li>
+  </ul>
+
+  <h2>Experiência Profissional</h2>
+  <div class="entry">
+    <div><span class="entry-title">Estagiário de Pesquisa — IA aplicada ao Direito</span> — UnB em parceria com o TJGO
+      <span class="entry-meta">· Brasília–DF · 2026 – atual</span></div>
+    <ul>
+      <li>Pesquisa e desenvolvimento de modelo de <strong>IA para triagem e filtragem de documentos jurídicos sensíveis</strong> relacionados a violações de <strong>direitos humanos</strong>, no Tribunal de Justiça de Goiás (TJGO).</li>
+      <li>Aplicação de <strong>Processamento de Linguagem Natural (NLP)</strong> e classificação de documentos em <strong>Python</strong>, integrado ao ecossistema de IA do tribunal (ferramentas <strong>Berna</strong> e <strong>Agaia</strong>).</li>
+    </ul>
+  </div>
+  <div class="entry">
+    <div><span class="entry-title">Estagiário de TI e Administrativo</span> — À La Vontê Pizzaria
+      <span class="entry-meta">· Brasília–DF · mar/2026 – atual</span></div>
+    <ul>
+      <li>Responsável pela área de <strong>TI</strong> da empresa: seleção, montagem e manutenção de computadores (hardware e software), configuração de rede e suporte técnico.</li>
+      <li>Desenvolvi o <strong>site institucional</strong> da empresa em <strong>Django/Python</strong>, com painel administrativo para gestão de conteúdo, <strong>CDN de imagens (Cloudinary)</strong>, <strong>SEO técnico</strong> e <strong>CI/CD (GitHub Actions)</strong>.</li>
+      <li>Realizo <strong>análise de dados</strong> e automação de planilhas, <strong>conciliação bancária</strong> e baixa de boletos; participo de reuniões estratégicas com os sócios, propondo melhorias de processos.</li>
+    </ul>
+  </div>
+  <div class="entry">
+    <div><span class="entry-title">Monitor de Programação</span> — UniCEUB
+      <span class="entry-meta">· Brasília–DF · 2025 – atual</span></div>
+    <ul>
+      <li>Apoio acadêmico a estudantes em <strong>lógica de programação, algoritmos, estruturas de dados</strong> e introdução a <strong>Machine Learning</strong> e Ciência de Dados.</li>
+    </ul>
+  </div>
+
+  <h2>Projetos</h2>
+  <div class="entry">
+    <div class="tight"><span class="entry-title">HarmoniClub — Plataforma Full-Stack de Educação Musical</span>
+      <span class="stack">· Java 21, Spring Boot 3.5, Angular 17, PostgreSQL</span></div>
+    <ul>
+      <li><strong>API REST</strong> com <strong>24 endpoints</strong>, autenticação stateless <strong>JWT</strong> (Spring Security/OAuth2), autorização por papéis (<strong>RBAC</strong>) e persistência com <strong>Spring Data JPA/Hibernate</strong>.</li>
+      <li>Otimização de consultas (eliminação de <strong>N+1</strong>), paginação e filtros, e <strong>~83 testes</strong> automatizados de integração (cobertura com JaCoCo).</li>
+      <li>Front-end <strong>SPA em Angular + TypeScript</strong> (modular, lazy-loaded) com player de áudio interativo.</li>
+    </ul>
+  </div>
+  <div class="entry">
+    <div class="tight"><span class="entry-title">Motor de Xadrez com IA — engine própria</span>
+      <span class="stack">· Java (Swing)</span> <span class="muted">· engine completa; IA em desenvolvimento</span></div>
+    <ul>
+      <li>Engine de xadrez para 2 jogadores em <strong>Java puro (~2.300 linhas)</strong> com todas as regras oficiais (roque, en passant, promoção, xeque-mate), <strong>interface gráfica (Swing)</strong> própria e exportação de partidas em <strong>PGN</strong>.</li>
+      <li><strong>IA em desenvolvimento</strong>: busca de melhor lance com <strong>Minimax + poda Alfa-Beta</strong> e representação de tabuleiro por <strong>Bitboards</strong> para avaliação eficiente.</li>
+    </ul>
+  </div>
+  <div class="entry">
+    <div class="tight"><span class="entry-title">Sistema de Gestão Comercial — API com Clean Architecture</span>
+      <span class="stack">· Python, Django REST Framework</span></div>
+    <ul>
+      <li><strong>API REST</strong> em camadas aplicando <strong>Clean Architecture</strong> e <strong>Design Patterns</strong> (Repository, Strategy, Factory, Domain Model/DDD).</li>
+      <li><strong>Autenticação JWT</strong> com controle de acesso por perfil (<strong>RBAC</strong>), regras de negócio transacionais (baixa automática de estoque) e <strong>39 testes</strong> automatizados.</li>
+    </ul>
+  </div>
+  <p style="margin-top:3px"><strong>Outros projetos:</strong> Física Computacional em Python (+20 simulações criadas do zero, sem bibliotecas de física, ~3.000 linhas); Automação de geração de contratos (<strong>FastAPI</strong> + python-docx); Chatbot com <strong>IA generativa</strong> (Flask + <strong>OpenAI GPT</strong> + MySQL); Visualizador de ordenação em <strong>C/SDL3</strong>.</p>
+
+  <h2>Formação Acadêmica</h2>
+  <ul>
+    <li><strong>Bacharelado em Ciência da Computação</strong> — UniCEUB, Brasília–DF <span class="entry-meta">· 2024 – 2028 (em andamento)</span></li>
+    <li><strong>Engenharia Mecatrônica (incompleto)</strong> — USP – Universidade de São Paulo, São Carlos–SP <span class="entry-meta">· 2021 – 2024</span> · 7 semestres concluídos; base sólida em programação, algoritmos, eletrônica e sistemas embarcados.</li>
+  </ul>
+
+  <h2>Cursos, Certificações &amp; Idiomas</h2>
+  <p style="margin-bottom:2px"><strong>Certificação:</strong> Google Cloud Computing Foundations — Google Cloud</p>
+  <p style="margin-bottom:2px"><strong>Cursos:</strong> Spring Boot Expert — JPA, REST, JWT, OAuth2, Docker, AWS (Douglas Sousa, 58h) &nbsp;·&nbsp; Django + Django REST Framework (Luiz Otávio Miranda, 79h) &nbsp;·&nbsp; FastAPI Assíncrono com Python (Geek University, 12,5h) &nbsp;·&nbsp; The Ultimate MySQL Bootcamp — SQL (Colt Steele, 17,5h)</p>
+  <p><strong>Idiomas:</strong> Português (nativo) &nbsp;·&nbsp; Inglês (fluente — Wizard, 2021) &nbsp;·&nbsp; Alemão (básico A2 — DaF Institut, 2023)</p>
+
+</body>
+</html>
