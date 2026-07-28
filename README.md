@@ -1,6 +1,6 @@
 <h1 align="center">Gabriel Becker</h1>
 
-<p align="center">Desenvolvedor Backend · Python &amp; Java · APIs · Clean Architecture</p>
+<p align="center">Ciência da Computação · Backend em Python &amp; Java · Infraestrutura e automação</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Bras%C3%ADlia%E2%80%93DF-%F0%9F%87%A7%F0%9F%87%B7-0a66c2?style=for-the-badge" alt="Localização" />
@@ -13,27 +13,53 @@
 
 ---
 
-Estudante de **Ciência da Computação** focado em backend: construo **APIs REST** em Python (Django/DRF, FastAPI) e Java (Spring Boot), com ênfase em **Clean Architecture, SOLID e testes**. Gosto de entender as coisas a fundo — da arquitetura até os fundamentos — e de levar um projeto da ideia ao deploy.
+Estudante de **Ciência da Computação** (UniCEUB), com 7 semestres prévios em Engenharia
+Mecatrônica na USP. Construo **APIs REST** em Python (Django/DRF, FastAPI) e Java
+(Spring Boot), com ênfase em testes, documentação e CI. No dia a dia também cuido da
+**infraestrutura e do suporte de TI** de uma empresa com duas unidades — hardware, rede,
+atendimento a usuários e automação de processos administrativos.
+
+Gosto de entender as coisas a fundo — da arquitetura até os fundamentos — e de levar um
+projeto da ideia ao deploy.
 
 ---
 
-### Projetos em destaque
+### Projetos públicos
 
 | Projeto | Sobre | Stack |
 | :--- | :--- | :--- |
-| **HarmoniClub** | Plataforma full-stack de educação musical — API com 24 endpoints, JWT/RBAC e ~83 testes | `Spring Boot` `Angular` `PostgreSQL` |
-| **Motor de Xadrez** | Engine própria em Java puro (~2.300 linhas), regras completas + IA com Minimax e Bitboards | `Java` `Swing` |
-| **Gestão Comercial** | API REST com Clean Architecture, Design Patterns e 39 testes | `Python` `Django REST` |
+| **[Motor de Xadrez](https://github.com/BudaBecker/AI-chess-bot)** | Engine própria em Java puro: regras completas, geração de lances legais, notação algébrica com desambiguação e exportação PGN | `Java` `Swing` |
+| **[Física Computacional](https://github.com/BudaBecker/python-physics)** | +20 simulações construídas do zero — pêndulo duplo, três corpos, raytracing — sem nenhuma biblioteca de física | `Python` `NumPy` `Pygame` |
+| **[Ordenação em C/SDL3](https://github.com/BudaBecker/SDL3-sorting-C)** | Visualizador de algoritmos de ordenação com áudio, um passo por quadro | `C` `SDL3` |
+| **[Culinary CRUD](https://github.com/BudaBecker/devsis-CEUB)** | Aplicação desktop com API FastAPI e persistência em SQLite | `Python` `FastAPI` `Tkinter` |
+| **[Persona](https://github.com/BudaBecker/persona-webpage)** | Chatbot de restaurante — regras determinísticas com *fallback* para GPT | `Python` `Flask` `OpenAI` |
 
-Mais projetos no [currículo completo](curriculos/curriculo_md.md) — física computacional, automação com FastAPI, chatbot com IA generativa.
+### Trabalho em código fechado
+
+Meus sistemas de maior porte são de clientes ou uso comercial e os repositórios são
+privados. Em linhas gerais:
+
+- **Backoffice de vendas e comissionamento de planos de saúde** — Django REST + Next.js,
+  ~24 mil linhas, **239 testes automatizados**, CI nas duas aplicações, autenticação JWT
+  com 4 perfis de acesso e trilha de auditoria imutável sobre as entidades críticas.
+  Sou o autor principal (56 dos 59 commits).
+- **Site institucional em produção** — Django 6 com painel administrativo operado pela
+  própria empresa, CDN de imagens, testes e pipeline de CI que valida migrações e a
+  configuração de produção a cada push.
+- **Automação de DRE gerencial** — apuração semanal de resultado de duas lojas, derivada
+  100% por fórmula a partir de abas de lançamento, com manual de uso para o operador final.
+- **HarmoniClub** — plataforma de educação musical em Spring Boot 3.5 + Angular 17, API com
+  24 endpoints, JWT/RBAC e 129 testes com cobertura JaCoCo. Projeto acadêmico em equipe.
+
+Detalhes no [currículo completo](curriculos/curriculo_md.md).
 
 ---
 
 ### Atualmente
 
 - Estágio de **pesquisa em IA aplicada ao Direito** (UnB × TJGO) — NLP e classificação de documentos em Python
-- Responsável por **TI + desenvolvimento web** (Django) em uma empresa
-- Monitor de **programação** no UniCEUB
+- Responsável por **TI e desenvolvimento web** em uma empresa com duas unidades
+- **Monitor de programação** no UniCEUB
 
 ---
 
@@ -43,8 +69,8 @@ Mais projetos no [currículo completo](curriculos/curriculo_md.md) — física c
 | :--- | :--- |
 | **Linguagens** | Python · Java · TypeScript · SQL · C/C++ |
 | **Backend** | Django/DRF · FastAPI · Spring Boot · REST · JWT/OAuth2 |
-| **Dados** | PostgreSQL · MySQL |
-| **Infra** | Docker · GCP · AWS · GitHub Actions · Linux |
+| **Dados** | PostgreSQL · MySQL · SQLite |
+| **Infra** | Docker · GCP · AWS · GitHub Actions · Linux · Windows |
 
 ---
 
