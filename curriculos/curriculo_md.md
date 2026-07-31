@@ -33,20 +33,24 @@ Desenvolvedor backend e estudante de Ciência da Computação com experiência p
 
 ### Projetos
 
+**TransWeb — Backoffice de Vendas e Comissionamento** · *Django 6, Django REST Framework, Next.js 16, TypeScript · autor principal (56 de 59 commits)*
+- **API REST** organizada em **8 apps de domínio** (catálogo, corretores, vendas, financeiro, recebíveis, faturamento, usuários e auditoria), com regras de comissionamento por vigência e valores derivados no servidor.
+- **Autenticação JWT** com **4 perfis de acesso**, escopo de dados derivado do usuário autenticado e **trilha de auditoria imutável** (quem, quando, antes→depois) capturada por signals.
+- **239 testes** automatizados e **CI (GitHub Actions)** nas duas aplicações, com gate de `check --deploy`; ~24 mil linhas entre back-end e front-end.
+
 **HarmoniClub — Plataforma Full-Stack de Educação Musical** · *Java 21, Spring Boot 3.5, Angular 17, PostgreSQL*
 - **API REST** com **24 endpoints**, autenticação stateless **JWT** (Spring Security/OAuth2), autorização por papéis (**RBAC**) e persistência com **Spring Data JPA/Hibernate**.
-- Otimização de consultas (eliminação de **N+1**), paginação e filtros, e **~83 testes** automatizados de integração (cobertura com JaCoCo).
+- Otimização de consultas (eliminação de **N+1**), paginação e filtros, e **129 testes** automatizados de integração (cobertura com JaCoCo).
 - Front-end **SPA em Angular + TypeScript** (modular, lazy-loaded) com player de áudio interativo.
 
-**Motor de Xadrez com IA — engine própria** · *Java (Swing) · (engine completa; IA em desenvolvimento)*
-- Engine de xadrez para 2 jogadores em **Java puro (~2.300 linhas)** com todas as regras oficiais (roque, en passant, promoção, xeque-mate), **interface gráfica (Swing)** própria e exportação de partidas em **PGN**.
-- **IA em desenvolvimento**: busca de melhor lance com **Minimax + poda Alfa-Beta** e representação de tabuleiro por **Bitboards** para avaliação eficiente.
+**Motor de Xadrez — engine própria** · *Java (Swing) · código público: github.com/BudaBecker/AI-chess-bot*
+- Engine completa em **Java puro (~1.960 linhas)**, sem dependências externas: todas as regras oficiais (roque validado casa a casa, en passant, promoção, xeque-mate, afogamento) e **interface gráfica em Swing** própria.
+- **Geração de lances legais** com simulação e descarte de movimentos que deixam o rei em xeque; **notação algébrica (SAN)** com desambiguação e **exportação de partidas em PGN**.
+- Próximo passo: bot com **Minimax + poda Alfa-Beta** sobre representação por **Bitboards**.
 
-**Sistema de Gestão Comercial — API com Clean Architecture** · *Python, Django REST Framework*
-- **API REST** em camadas aplicando **Clean Architecture** e **Design Patterns** (Repository, Strategy, Factory, Domain Model/DDD).
-- **Autenticação JWT** com controle de acesso por perfil (**RBAC**), regras de negócio transacionais (baixa automática de estoque) e **39 testes** automatizados.
+**Site institucional em produção** · *Django 6, Python 3.13* — painel administrativo operado pela própria empresa, CDN de imagens (Cloudinary), testes automatizados e pipeline de CI que valida migrações e a configuração de produção a cada push.
 
-**Outros projetos:** Física Computacional em Python (+20 simulações criadas do zero, sem bibliotecas de física, ~3.000 linhas); Automação de geração de contratos (**FastAPI** + python-docx); Chatbot com **IA generativa** (Flask + **OpenAI GPT** + MySQL); Visualizador de ordenação em **C/SDL3**.
+**Outros projetos:** Física Computacional em Python (**16 simulações** criadas do zero — pêndulo duplo, três corpos, raytracing —, sem bibliotecas de física, ~2.100 linhas); Automação de geração de contratos (**FastAPI** + python-docx); Chatbot com **IA generativa** (Flask + **OpenAI GPT** + MySQL); Visualizador de ordenação em **C/SDL3**.
 
 ### Formação Acadêmica
 - **Bacharelado em Ciência da Computação** — UniCEUB, Brasília–DF · *2024 – 2028 (em andamento)*

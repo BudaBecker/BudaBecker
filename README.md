@@ -29,7 +29,7 @@ projeto da ideia ao deploy.
 | Projeto | Sobre | Stack |
 | :--- | :--- | :--- |
 | **[Motor de Xadrez](https://github.com/BudaBecker/AI-chess-bot)** | Engine própria em Java puro: regras completas, geração de lances legais, notação algébrica com desambiguação e exportação PGN | `Java` `Swing` |
-| **[Física Computacional](https://github.com/BudaBecker/python-physics)** | +20 simulações construídas do zero — pêndulo duplo, três corpos, raytracing — sem nenhuma biblioteca de física | `Python` `NumPy` `Pygame` |
+| **[Física Computacional](https://github.com/BudaBecker/python-physics)** | 16 simulações construídas do zero — pêndulo duplo, três corpos, raytracing — sem nenhuma biblioteca de física | `Python` `NumPy` `Pygame` |
 | **[Ordenação em C/SDL3](https://github.com/BudaBecker/SDL3-sorting-C)** | Visualizador de algoritmos de ordenação com áudio, um passo por quadro | `C` `SDL3` |
 | **[Culinary CRUD](https://github.com/BudaBecker/devsis-CEUB)** | Aplicação desktop com API FastAPI e persistência em SQLite | `Python` `FastAPI` `Tkinter` |
 | **[Persona](https://github.com/BudaBecker/persona-webpage)** | Chatbot de restaurante — regras determinísticas com *fallback* para GPT | `Python` `Flask` `OpenAI` |
